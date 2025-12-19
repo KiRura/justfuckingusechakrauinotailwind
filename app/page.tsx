@@ -11,6 +11,7 @@ import {
 	HStack,
 	Link,
 	Separator,
+	Span,
 	Strong,
 	Text,
 } from "@chakra-ui/react";
@@ -33,7 +34,11 @@ export default () => (
 		<Container as="header" maxW="2xl" my="28" spaceY="4">
 			<Text color="teal.fg">目を曇らせるな。賢く作れ。</Text>
 			<Heading as="h1" size="5xl">
-				Just Fucking Use ChakraUI No Tailwind{" "}
+				Just Fucking Use{" "}
+				<Span color="teal.fg" bgColor="teal.subtle">
+					ChakraUI
+				</Span>{" "}
+				No Tailwind{" "}
 				<Heading as="span" size="2xl">
 					when you use React.
 				</Heading>
